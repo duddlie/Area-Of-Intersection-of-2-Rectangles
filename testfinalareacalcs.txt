@@ -1,0 +1,3 @@
+rect3Area	rect1Area	rect2Area	total area
+1		16		8		23
+2		6		4		8

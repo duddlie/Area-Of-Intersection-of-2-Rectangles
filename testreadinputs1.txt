@@ -1,0 +1,21 @@
+inputs			expected output		real output
+1 1 1 1 1 1 1 1 	1 1 1 1                 1 1 1 1 
+			1 1 1 1 		1 1 1 1
+
+-1 -2 -3 4 5 -6 7 8	-1 -2 -3 4		-1 -2 -3 4
+			5  -6  7  8		5  -6  7  8
+
+0 0 0 0 0 0 0 0		0 0 0 0			0 0 0 0
+			0 0 0 0			0 0 0 0
+
+
+program works but the way it asks questions looks clunky to the user:
+Enter the x-coordinate for rectangle 1, corner 1:
+Enter the x-coordinate for rectangle 1, corner 2:
+Enter the y-coordinate for rectangle 1, corner 1:
+Enter the y-coordinate for rectangle 1, corner 2:
+Enter the x-coordinate for rectangle 2, corner 1:
+Enter the x-coordinate for rectangle 2, corner 2:
+Enter the y-coordinate for rectangle 2, corner 1:
+Enter the y-coordinate for rectangle 2, corner 2:
+			

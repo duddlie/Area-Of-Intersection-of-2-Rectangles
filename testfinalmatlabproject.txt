@@ -1,0 +1,5 @@
+inputs			expected output	(intersect area, total area)	observed output
+0 0 2 2 1 1 3 3		1, 7						1, 7
+-2 -2 0 0 -1 -1 1 1	1, 7						1, 7
+0 0 1 1 2 2 3 3 	error no intersect				error no intersect
+1 1 0 0 3 3 2 2		error corners invalid				error corners invalid

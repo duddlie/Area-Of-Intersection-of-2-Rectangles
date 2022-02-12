@@ -1,0 +1,22 @@
+inputs			expected output		real output
+1 2 3 4 1 1 5 1 	1 2			1 2	
+			3 4			3 4
+			1 1			1 1
+			5 1			5 1
+			
+
+1 -2 -3 4 5 -6		error			error
+
+
+
+changed the nested loop and added if conditions to make the questions look better, 
+added check to make sure user answers every question
+
+Enter the x-coordinate for the first rectangle, lower left corner:1
+Enter the y-coordinate for the first rectangle, lower left corner:2
+Enter the x-coordinate for the first rectangle, top right corner:1
+Enter the y-coordinate for the first rectangle, top right corner:1
+Enter the x-coordinate for the second rectangle, lower left corner:1
+Enter the y-coordinate for the second rectangle, lower left corner:1
+Enter the x-coordinate for the second rectangle, top right corner:1
+Enter the y-coordinate for the second rectangle, top right corner:1
